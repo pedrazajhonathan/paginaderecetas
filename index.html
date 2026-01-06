@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebook de Postres</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fffaf7;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      border-bottom-left-radius: 30% ;
+      border-bottom-right-radius: 30%;
+      width: 100vw;
+      height: 20vh;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    .container {
+      top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0px;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 70vh;
+      position: relative;
+    }
+
+    .ebook-image {
+      
+      text-align: center;
+      width: 50%;
+      position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .ebook-image img {
+      width: 40%;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .ebook-info {
+        
+        width: 50%;
+        padding: 20px 50px;
+        box-sizing: border-box;
+        height: 100%;
+    }
+
+    .ebook-info h2 {
+      font-size: 2rem;
+      color: #ff6f91;
+      margin-bottom: 1rem;
+    }
+
+    .ebook-info p {
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 3px;
+      background: #ff6f91;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+
+    }
+
+    .btn:hover {
+      background: #e05270;
+    }
+
+    footer {
+      background: #e1a3a3;
+      color: #fff;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100vw;
+      padding: 20px 0px;
+      box-sizing: border-box;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width:480px){
+        .container{
+            display: flex;
+            
+        }
+        .ebook-image img{
+            width: 90%;
+            position: relative;
+            bottom: 70px;
+        }
+        .ebook-info h2{
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .ebook-info p{
+            font-size: .7em;
+        }
+        .ebook-info{
+            padding: 0px 5px;
+        }
+        .ebook-info .btn{
+            width: 140px;
+            font-size: .8em;
+            text-align: center;
+        }
+        header h1{
+            font-size: 1.7em;
+        }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ebook de Postres</h1>
+    <p>Endulza tu vida con recetas irresistibles</p>
+  </header>
+
+  <section class="container">
+    <div class="ebook-image">
+      <img src="Documento A4 Portada Libro Recetas Sencillo Verde y Beige.png" alt="Portada del Ebook de Postres">
+    </div>
+    <div class="ebook-info">
+      <h2>Una colección única</h2>
+      <p>
+        Este ebook reúne las mejores recetas de postres caseros, desde clásicos como brownies y cheesecakes hasta creaciones modernas llenas de sabor. 
+        Con instrucciones claras y fotografías inspiradoras, es perfecto para quienes aman cocinar y sorprender.
+      </p>
+      <a target="_blank" href="https://tintaviva.info/landing-emprende-con-reposteria/#fffaf7=jhondairopedraza" class="btn">ir al sitio de compra</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Recetas Dulces. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
